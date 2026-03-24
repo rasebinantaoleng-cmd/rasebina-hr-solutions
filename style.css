@@ -1,0 +1,33 @@
+* {margin: 0;padding: 0;}
+body {font-family: Arial, sans-serif;line-height: 1.6; font-size: 18px;}
+.contaier {max-width: 1200px;margin: 0 auto;padding: 20px;}
+nav {text-align: center;padding: 20px 0; border-bottom: 2px solid #ddd;}
+nav a {text-decoration: dashed; padding: 10px 20px;margin: 0 10px;color: #2c5282;font-weight: 600;transition: 0.3s;}
+h1, h2, h3, h4, h5, h6 { font-size: 22px;}
+p {margin-bottom: 1rem;}
+table {width: 100%;border-collapse: collapse;margin: 1.5rem 0;background-color: white;box-shadow: 0 2px 8px rgba(0,0,0,0.1);}
+caption {font-size: 1.5rem;font-weight: bold;margin-bottom: 1rem;color: #e53e3e;caption-side: top;}
+th, td {border: 2px solid #cbd5e0;padding: 1rem;text-align: center;}
+th {background-color: #2c5282;color: white;font-weight: 600;}
+td {background-color: #f8fafc;}
+ul, ol, li {margin-left: 32px; margin-bottom: 16px;}
+li {list-style: disc;margin-bottom: 0.5rem;}
+button, .apply-btn {color: white;border: none;padding: 0.6rem 1.5rem;font-size: 1rem;font-weight: 600;border-radius: 300px;cursor: pointer;transition: all 0.3s ease;margin: 0.5rem 0;display: inline-block;text-transform: uppercase;letter-spacing: 0.5px;}
+botton:hover, .apply-btn:hover {background-color: red;}
+iframe {border: none; width: 100%;max-width: 560px;height: auto;aspect-ratio: 16/9;}
+.policy-section h2, .policy-section h3, .policy-section h4 {margin-top: 0;color: #1e3a5f;}
+.social-links {margin: 1rem 0;text-align: center;}
+.social-links a {display: inline-block;margin: 0 9,75rem;color: #2c5282;text-decoration:none;font-weight: 500;transition: color 0.3s;}
+.social-links a:hover {color: white;text-decoration: underline;}
+footer {background-color: navy;color: white;text-align: center;padding: 1.5rem;margin-top: 3rem;font-size: 0.9rem;}
+@media (max-width: 768px) {nav a {display: inline-block;padding: 0.5rem;margin: 0.2rem;font-size: 0.9rem;}
+h1 {font-size: 1.8rem;}
+h2 {font-weight: 1.5rem;}
+table, th, td {font-size: 0.9rem;padding: 0.5rem;}
+.benefits-rigid {grid-template-columns: 1fr;}
+.text-center {text-align: center;}
+font {color: red}
+h1 i, h1 font {font-style: normal;}
+div {box-sizing: border-box;}
+.content {flex: 1;}
+.footer {text-align: center;padding: 20px;margin-top: auto; font-size: 18px;}
